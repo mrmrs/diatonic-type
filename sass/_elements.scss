@@ -1,0 +1,50 @@
+body {
+  padding:5%;
+  font-family:Baskerville;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin-bottom:1em;
+}
+
+h1 {
+  font-size:$inch;
+  @include breakpoint(mobile) {
+    font-size:$canon;
+  }
+}
+
+h2 {
+  font-size:$canon;
+  @include breakpoint(mobile) {
+    font-size:$double-great-primer;
+  }
+}
+
+h3 {
+  font-size:$double-great-primer;
+}
+
+h4 {
+  font-size:$double-pica;
+}
+
+h5 {
+  font-size:$double-small-pica;
+}
+
+h6 {
+  font-size:$great-primer;
+}
+
+p {
+  font-size:$english;
+  margin-bottom:2em;
+  line-height:1.4;
+}
+
+.intro,h1 + p {
+  font-size:$double-small-pica; 
+  @include breakpoint(mobile) {
+    font-size:$great-primer;
+  }
+}
