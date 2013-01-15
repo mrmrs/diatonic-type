@@ -43,23 +43,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body {
-  padding: 5%;
-  font-family: Baskerville;
-  color: #222; }
-
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
   font-weight: 100; }
 
 h1 {
-  font-size: 96px !important; }
+  font-size: 96px; }
   @media screen and (min-width: 768px) and (max-width: 959px) {
     h1 {
       font-size: 80px; } }
   @media screen and (max-width: 479px) {
     h1 {
-      font-size: 62px; } }
+      font-size: 62px !important; } }
 
 h2 {
   font-size: 62px; }
@@ -94,9 +89,14 @@ h6 {
 p {
   font-size: 21px;
   line-height: 1.4;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  font-weight: 100; }
+
+p + p {
+  text-indent: 1em; }
 
 .intro, h1 + p {
+  text-indent: 0;
   font-size: 28px;
   font-style: italic;
   margin-bottom: 2em; }
@@ -124,5 +124,27 @@ blockquote {
 address {
   font-size: 13px; }
 
+var {
+  font-family: monospace; }
+
+time {
+  font-size: 13px; }
+
+p time {
+  font-size: inherit; }
+
+sup {
+  vertical-align: super;
+  font-size: .5em; }
+
+sub {
+  font-size: .5em;
+  vertical-align: sub; }
+
 img {
   width: 100%; }
+
+body {
+  padding: 5%;
+  font-family: georgia,baskerville,serif;
+  color: #222; }

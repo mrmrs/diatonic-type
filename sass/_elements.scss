@@ -2,8 +2,6 @@ body {
   padding:5%;
   font-family:Baskerville;
   color:#222;
-  //max-width:768px;
-  //margin:0 auto;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -12,12 +10,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size:$inch!important;
+  font-size:$inch;
   @include breakpoint(tablet) {
     font-size:$five-line-pica;
   }
   @include breakpoint(mobile) {
-    font-size:$canon;
+    font-size:$canon!important;
   }
 }
 
@@ -62,7 +60,12 @@ p {
   margin-bottom:2em;
 }
 
+p + p {
+  text-indent:1em;
+}
+
 .intro,h1 + p {
+  text-indent:0;
   font-size:$double-small-pica; 
   font-style:italic;
   margin-bottom:2em;
@@ -94,6 +97,28 @@ blockquote {
 
 address {
   font-size:$long-primer;
+}
+
+var {
+  font-family:monospace;
+}
+
+time {
+  font-size:$long-primer;
+}
+
+p time {
+  font-size:inherit;
+}
+
+sup {
+  vertical-align:super;
+  font-size:.5em;
+}
+
+sub {
+  font-size:.5em;
+  vertical-align:sub;
 }
 
 // STUFF FOR EXAMPLE
