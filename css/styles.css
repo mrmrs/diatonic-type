@@ -1,0 +1,86 @@
+/* RESET */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+u, b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, input, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  padding: 5%;
+  font-family: Baskerville; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1em; }
+
+h1 {
+  font-size: 96px; }
+  @media screen and (max-width: 479px) {
+    h1 {
+      font-size: 62px; } }
+
+h2 {
+  font-size: 62px; }
+  @media screen and (max-width: 479px) {
+    h2 {
+      font-size: 48px; } }
+
+h3 {
+  font-size: 48px; }
+
+h4 {
+  font-size: 32px; }
+
+h5 {
+  font-size: 28px; }
+
+h6 {
+  font-size: 24px; }
+
+p {
+  font-size: 19px;
+  margin-bottom: 2em;
+  line-height: 1.4; }
+
+.intro, h1 + p {
+  font-size: 28px; }
+  @media screen and (max-width: 479px) {
+    .intro, h1 + p {
+      font-size: 24px; } }
