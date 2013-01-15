@@ -45,13 +45,18 @@ table {
 
 body {
   padding: 5%;
-  font-family: Baskerville; }
+  font-family: Baskerville;
+  color: #222; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  font-weight: 100; }
 
 h1 {
   font-size: 96px; }
+  @media screen and (min-width: 768px) and (max-width: 959px) {
+    h1 {
+      font-size: 80px; } }
   @media screen and (max-width: 479px) {
     h1 {
       font-size: 62px; } }
@@ -64,23 +69,57 @@ h2 {
 
 h3 {
   font-size: 48px; }
+  @media screen and (max-width: 479px) {
+    h3 {
+      font-size: 32px; } }
 
 h4 {
   font-size: 32px; }
+  @media screen and (max-width: 479px) {
+    h4 {
+      font-size: 28px; } }
 
 h5 {
   font-size: 28px; }
+  @media screen and (max-width: 479px) {
+    h5 {
+      font-size: 24px; } }
 
 h6 {
   font-size: 24px; }
+  @media screen and (max-width: 479px) {
+    h6 {
+      font-size: 21px; } }
 
 p {
-  font-size: 19px;
-  margin-bottom: 2em;
-  line-height: 1.4; }
+  font-size: 21px;
+  line-height: 1.4;
+  margin-bottom: 2em; }
 
 .intro, h1 + p {
-  font-size: 28px; }
+  font-size: 28px;
+  font-style: italic;
+  margin-bottom: 2em; }
   @media screen and (max-width: 479px) {
     .intro, h1 + p {
       font-size: 24px; } }
+
+caption,
+.meta {
+  font-size: 13px;
+  margin: 1em 0; }
+
+blockquote {
+  border-left: 10px solid #eee;
+  padding: 1em 0 1em 1em;
+  margin-top: 3em;
+  margin-bottom: 3em; }
+  blockquote p {
+    margin-bottom: 1em;
+    font-size: 32px; }
+  blockquote footer {
+    font-size: 16px;
+    font-style: italic; }
+
+img {
+  width: 100%; }

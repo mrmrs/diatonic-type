@@ -1,13 +1,19 @@
 body {
   padding:5%;
   font-family:Baskerville;
+  color:#222;
 }
+
 h1,h2,h3,h4,h5,h6 {
   margin-bottom:1em;
+  font-weight:100;
 }
 
 h1 {
   font-size:$inch;
+  @include breakpoint(tablet) {
+    font-size:$five-line-pica;
+  }
   @include breakpoint(mobile) {
     font-size:$canon;
   }
@@ -22,29 +28,69 @@ h2 {
 
 h3 {
   font-size:$double-great-primer;
+  @include breakpoint(mobile) {
+    font-size:$double-pica; 
+  }
 }
 
 h4 {
   font-size:$double-pica;
+  @include breakpoint(mobile) {
+    font-size:$double-small-pica;
+  }
 }
 
 h5 {
   font-size:$double-small-pica;
+  @include breakpoint(mobile) {
+    font-size:$great-primer;
+  }
 }
 
 h6 {
   font-size:$great-primer;
+  @include breakpoint(mobile) {
+    font-size:$columbian;
+  }
 }
 
 p {
-  font-size:$english;
-  margin-bottom:2em;
+  font-size:$columbian;
   line-height:1.4;
+  margin-bottom:2em;
 }
 
 .intro,h1 + p {
   font-size:$double-small-pica; 
+  font-style:italic;
+  margin-bottom:2em;
   @include breakpoint(mobile) {
     font-size:$great-primer;
   }
+}
+
+caption,
+.meta {
+  font-size:$long-primer;
+  margin:1em 0;
+}
+
+blockquote {
+  border-left:10px solid #eee;
+  padding:1em 0 1em 1em;
+  margin-top:3em;
+  margin-bottom:3em;
+  p {
+    margin-bottom:1em;
+    font-size:$double-pica;
+  }
+  footer {
+    font-size:$pica;
+    font-style:italic;
+  }
+}
+
+// STUFF FOR EXAMPLE
+img {
+  width:100%;
 }
