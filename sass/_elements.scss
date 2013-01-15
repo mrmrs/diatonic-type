@@ -2,6 +2,8 @@ body {
   padding:5%;
   font-family:Baskerville;
   color:#222;
+  //max-width:768px;
+  //margin:0 auto;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -10,7 +12,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size:$inch;
+  font-size:$inch!important;
   @include breakpoint(tablet) {
     font-size:$five-line-pica;
   }
@@ -88,6 +90,10 @@ blockquote {
     font-size:$pica;
     font-style:italic;
   }
+}
+
+address {
+  font-size:$long-primer;
 }
 
 // STUFF FOR EXAMPLE
