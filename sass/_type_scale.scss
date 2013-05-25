@@ -1,123 +1,135 @@
+/* ==========================================================================
+   TYPOGRAPHIC STYLE
+
+   - Headings
+   - Paragraphs
+   - Quotes
+   - Random
+   - Super & Subscript 
+   ========================================================================== */
+
+
+/* Headings
+   ========================================================================== */
 
 h1,h2,h3,h4,h5,h6 {
-  margin-bottom:1em;
-  font-weight:100;
+  margin-bottom: 1em;
+  font-weight: 100;
 }
 
 h1 {
-  font-size:$inch;
+  font-size: $inch;
   @include breakpoint(tablet) {
-    font-size:$five-line-pica;
+    font-size: $five-line-pica;
   }
   @include breakpoint(mobile) {
-    font-size:$canon!important;
+    font-size: $canon!important;
   }
 }
 
 h2 {
-  font-size:$canon;
+  font-size: $canon;
   @include breakpoint(mobile) {
-    font-size:$double-great-primer;
+    font-size: $double-great-primer;
   }
 }
 
 h3 {
-  font-size:$double-great-primer;
+  font-size: $double-great-primer;
   @include breakpoint(mobile) {
-    font-size:$double-pica; 
+    font-size: $double-pica; 
   }
 }
 
 h4 {
-  font-size:$double-pica;
+  font-size: $double-pica;
   @include breakpoint(mobile) {
-    font-size:$double-small-pica;
+    font-size: $double-small-pica;
   }
 }
 
 h5 {
-  font-size:$double-small-pica;
+  font-size: $double-small-pica;
   @include breakpoint(mobile) {
-    font-size:$great-primer;
+    font-size: $great-primer;
   }
 }
 
 h6 {
-  font-size:$great-primer;
+  font-size: $great-primer;
   @include breakpoint(mobile) {
-    font-size:$columbian;
+    font-size: $columbian;
   }
 }
 
+
+
+/* Paragraphs
+   ========================================================================== */
+
 p {
-  font-size:$columbian;
-  line-height:1.4;
-  margin-bottom:2em;
-  font-weight:100;
+  font-size: $columbian;
+  line-height: 1.4;
+  margin-bottom: 2em;
+  font-weight: 100;
 }
 
 p + p {
-  text-indent:1em;
+  text-indent: 1em;
 }
 
-.intro,h1 + p {
-  text-indent:0;
-  font-size:$double-small-pica; 
-  font-style:italic;
-  margin-bottom:2em;
+.intro,
+h1 + p {
+  text-indent: 0;
+  font-size: $double-small-pica; 
+  font-style: italic;
+  margin-bottom: 2em;
   @include breakpoint(mobile) {
-    font-size:$great-primer;
+    font-size: $great-primer;
   }
 }
 
 caption,
 .meta {
-  font-size:$long-primer;
-  margin:1em 0;
+  font-size: $long-primer;
+  margin: 1em 0;
 }
+
+
+
+/* Quotes
+   ========================================================================== */
 
 blockquote {
-  border-left:10px solid #eee;
-  padding:1em 0 1em 1em;
-  margin-top:3em;
-  margin-bottom:3em;
+  border-left: 10px solid #eee;
+  padding: 1em 0 1em 1em;
+  margin-top: 3em;
+  margin-bottom: 3em;
   p {
-    margin-bottom:1em;
-    font-size:$double-pica;
+    margin-bottom: 1em;
+    font-size: $double-pica;
   }
   footer {
-    font-size:$pica;
-    font-style:italic;
+    font-size: $pica;
+    font-style: italic;
   }
 }
 
-address {
-  font-size:$long-primer;
-}
 
-var {
-  font-family:monospace;
-}
 
-time {
-  font-size:$long-primer;
-}
+/* Random
+   ========================================================================== */
 
-p time {
-  font-size:inherit;
-}
+address { font-size: $long-primer; }
+time    { font-size: $long-primer; }
+var     { font-family: monospace; }
+p time  { font-size: inherit; }
 
-sup {
-  vertical-align:super;
-  font-size:.5em;
-}
 
-sub {
-  font-size:.5em;
-  vertical-align:sub;
-}
 
-// STUFF FOR EXAMPLE
-img {
-  width:100%;
-}
+/* Super & Subscript
+   ========================================================================== */
+
+sup,sub {font-size: .5em;}
+sup { vertical-align: super; }
+sub { vertical-align: sub; }

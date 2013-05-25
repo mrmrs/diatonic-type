@@ -1,3 +1,11 @@
+/* ==========================================================================
+   TYPOGRAPHIC STYLE
+   ========================================================================== */
+
+
+/* Headings
+   ========================================================================== */
+
 h1,h2,h3,h4,h5,h6 {
   margin-bottom:1em;
   font-weight:100;
@@ -52,6 +60,7 @@ p {
   font-size:$columbian;
   line-height:1.4;
   margin-bottom:2em;
+  font-weight:100;
 }
 
 p + p {
@@ -89,21 +98,13 @@ blockquote {
   }
 }
 
-address {
-  font-size:$long-primer;
-}
+address { font-size:$long-primer; }
 
-var {
-  font-family:monospace;
-}
+var { font-family:monospace; }
 
-time {
-  font-size:$long-primer;
-}
+time { font-size:$long-primer; }
 
-p time {
-  font-size:inherit;
-}
+p time { font-size:inherit; }
 
 sup {
   vertical-align:super;
@@ -111,16 +112,9 @@ sup {
 }
 
 sub {
-  font-size:.5em;
   vertical-align:sub;
+  font-size:.5em;
 }
 
-/* ==========================================================================
-   IMAGES
-   ========================================================================== */
-
-   
-
-img {
-  width:100%;
-}
+// STUFF FOR EXAMPLE
+img { width:100%; }
