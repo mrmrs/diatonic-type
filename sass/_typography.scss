@@ -73,10 +73,13 @@ h6,.h6 {
    ========================================================================== */
 
 p {
-  font-size: $columbian;
+  font-size: $great-primer;
   line-height: 1.618;
   margin-bottom: 2em;
   font-weight: 100;
+  @include breakpoint(mobile) {
+    font-size: $columbian;
+  }
 }
 
 p + p {
