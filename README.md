@@ -7,6 +7,7 @@ A responsive type scale based on the diatonic scale of the print world.
 * Illustrates some basic markup examples. 
 * Works out of the box. (You don't need to add any classes to your markup.)
 * Includes some common oocss utilities.
+* Light-weight to the max: 1.6kb minified / 930b g-zipped.
 
 ## Getting Started
 
