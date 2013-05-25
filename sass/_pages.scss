@@ -1,0 +1,25 @@
+.list-scale {
+  display:inline-block;
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  line-height:2;
+
+    dt { 
+      width:200px;
+      display:inline-block;
+      margin:0;
+      padding:0;
+      border-bottom:1px dotted #ddd;
+      text-align:left;
+    }
+
+    dd {
+      width:100px;
+      display:inline-block;
+      margin:0;
+      padding:0;
+      text-align:right;
+      border-bottom: 1px dotted #ddd;
+    }
+}
