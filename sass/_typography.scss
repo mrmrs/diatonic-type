@@ -13,13 +13,13 @@
    ========================================================================== */
 
 h1,h2,h3,h4,h5,h6 {
-  margin-top: 1em;
   font-weight: 100;
   letter-spacing: .1em;
   line-height:1.3;
 }
 
 h1,.h1 {
+  margin-bottom: 0;
   font-size: $inch;
   @include breakpoint(tablet) {
     font-size: $five-line-pica;
@@ -73,7 +73,7 @@ h6,.h6 {
 
 p {
   font-size: $columbian;
-  line-height: 1.4;
+  line-height: 1.618;
   margin-bottom: 2em;
   font-weight: 100;
 }
@@ -140,9 +140,17 @@ sup     { vertical-align: super; }
 sub     { vertical-align: sub; }
 
 body { 
-  font-family:$serif; 
-  padding:0 30px;
+  font-family: $serif; 
+  font-size: 20px;
+  padding: 0 30px;
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 img {max-width:100%;}
 
+/* Utilities
+   ========================================================================== */
+.b { font-weight:bold; }
+.caps-lock { text-transform: uppercase; }
+.center { text-align: center;}
