@@ -1,0 +1,75 @@
+.f1,.inch {                 96px; }
+.f2,.five-line-pica {       80px; }
+.f3,.canon {                62px; }
+.f4,.double-great-primer {  48px; }
+.f5,.double-pica {          32px; }
+.f6,.double-small-pica {    28px; }
+.f7,.great-primer {         24px; }
+.f8,.columbian {            21px; }
+.f9,.english {              19px; }
+.f10,.pica {                16px; }
+.f11,.small-pica {          15px; }
+.f12,.long-primer {         13px; }
+.f13,.bourgeois {           12px; }
+.f14,.petit {               11px; }
+.f15,.minion {              9px; }
+.f16,.nonpareille {         8px; }
+
+@include break(non-small) {
+  .f1-ns,  .inch-ns {                96px; }
+  .f2-ns,  .five-line-pica-ns {      80px; }
+  .f3-ns,  .canon-ns {               62px; }
+  .f4-ns,  .double-great-primer-ns { 48px; }
+  .f5-ns,  .double-pica-ns {         32px; }
+  .f6-ns,  .double-small-pica-ns {   28px; }
+  .f7-ns,  .great-primer-ns {        24px; }
+  .f8-ns,  .columbian-ns {           21px; }
+  .f9-ns,  .english-ns {             19px; }
+  .f10-ns, .pica-ns {                16px; }
+  .f11-ns, .small-pica-ns {          15px; }
+  .f12-ns, .long-primer-ns {         13px; }
+  .f13-ns, .bourgeois-ns {           12px; }
+  .f14-ns, .petit-ns {               11px; }
+  .f15-ns, .minion-ns {              9px; }
+  .f16-ns, .nonpareille-ns {         8px; }
+}
+
+
+@include break(medium) {
+  .f1-m,  .inch-ns {                96px; }
+  .f2-m,  .five-line-pica-ns {      80px; }
+  .f3-m,  .canon-ns {               62px; }
+  .f4-m,  .double-great-primer-ns { 48px; }
+  .f5-m,  .double-pica-ns {         32px; }
+  .f6-m,  .double-small-pica-ns {   28px; }
+  .f7-m,  .great-primer-ns {        24px; }
+  .f8-m,  .columbian-ns {           21px; }
+  .f9-m,  .english-ns {             19px; }
+  .f10-m, .pica-ns {                16px; }
+  .f11-m, .small-pica-ns {          15px; }
+  .f12-m, .long-primer-ns {         13px; }
+  .f13-m, .bourgeois-ns {           12px; }
+  .f14-m, .petit-ns {               11px; }
+  .f15-m, .minion-ns {              9px; }
+  .f16-m, .nonpareille-ns {         8px; }
+
+}
+@include break(large) {
+  .f1-l,  .inch-ns {                96px; }
+  .f2-l,  .five-line-pica-ns {      80px; }
+  .f3-l,  .canon-ns {               62px; }
+  .f4-l,  .double-great-primer-ns { 48px; }
+  .f5-l,  .double-pica-ns {         32px; }
+  .f6-l,  .double-small-pica-ns {   28px; }
+  .f7-l,  .great-primer-ns {        24px; }
+  .f8-l,  .columbian-ns {           21px; }
+  .f9-l,  .english-ns {             19px; }
+  .f10-l, .pica-ns {                16px; }
+  .f11-l, .small-pica-ns {          15px; }
+  .f12-l, .long-primer-ns {         13px; }
+  .f13-l, .bourgeois-ns {           12px; }
+  .f14-l, .petit-ns {               11px; }
+  .f15-l, .minion-ns {              9px; }
+  .f16-l, .nonpareille-ns {         8px; }
+}
+

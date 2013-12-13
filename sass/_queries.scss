@@ -1,0 +1,31 @@
+/* ==========================================================================
+   QUERIES
+   ========================================================================== */
+
+/*
+ * Mixing for mobile first queries.
+ * Two breakpoints.
+ * Use like @include break(medium) { ***Styles*** }
+ * non-small is not a separate breakpoint - but opens
+ * up the scope for when the classes will respond.
+ *
+ */
+
+@mixin break($point) {
+  @if $point == non-small {
+    @media only screen and (min-width:32em) {
+      @content;
+    }
+  }
+  @else if $point == medium {
+    @media only screen and (min-width:32em) and (max-width:48em) {
+      @content;
+    }
+  }
+  @else if $point == large {
+    @media only screen and (min-width:48em)  {
+      @content;
+    }
+  }
+}
+
