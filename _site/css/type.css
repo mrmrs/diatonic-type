@@ -1,59 +1,577 @@
-/*
-Syntax error: Undefined mixin 'breakpoint'.
-        on line 25 of sass/_typography.scss, in `breakpoint'
-        from line 25 of sass/_typography.scss
-        from line 3 of sass/type.scss
+/* ==========================================================================
+   VARIABLES
 
-Backtrace:
-sass/_typography.scss:25:in `breakpoint'
-sass/_typography.scss:25
-sass/type.scss:3
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:227:in `map'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/tree/root_node.rb:20:in `render'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/engine.rb:315:in `_render'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/engine.rb:262:in `render'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:201:in `each'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:283:in `block in watch'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/vendor/listen/lib/listen/adapter.rb:198:in `call'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
-/Users/amorse/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.9/vendor/listen/lib/listen/adapters/darwin.rb:38:in `block in start'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined mixin 'breakpoint'.\A         on line 25 of sass/_typography.scss, in `breakpoint'\A         from line 25 of sass/_typography.scss\A         from line 3 of sass/type.scss"; }
+
+   - Type Faces
+   - Print Scale Variables
+   - Media Queries
+   ========================================================================== */
+/* Type Faces
+   ========================================================================== */
+/* Diatonic Print Scale
+   ========================================================================== */
+/* normalize.css v2.1.0 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre-wrap; }
+
+/**
+ * Set consistent quote types.
+ */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* ==========================================================================
+   QUERIES
+   ========================================================================== */
+/*
+ * Mixing for mobile first queries.
+ * Two breakpoints.
+ * Use like @include break(medium) { ***Styles*** }
+ * non-small is not a separate breakpoint - but opens
+ * up the scope for when the classes will respond.
+ *
+ */
+.f1, .inch {
+  font-size: 96px; }
+
+.f2, .five-line-pica {
+  font-size: 80px; }
+
+.f3, .canon {
+  font-size: 62px; }
+
+.f4, .double-great-primer {
+  font-size: 48px; }
+
+.f5, .double-pica {
+  font-size: 32px; }
+
+.f6, .double-small-pica {
+  font-size: 28px; }
+
+.f7, .great-primer {
+  font-size: 24px; }
+
+.f8, .columbian {
+  font-size: 21px; }
+
+.f9, .english {
+  font-size: 19px; }
+
+.f10, .pica {
+  font-size: 16px; }
+
+.f11, .small-pica {
+  font-size: 15px; }
+
+.f12, .long-primer {
+  font-size: 13px; }
+
+.f13, .bourgeois {
+  font-size: 12px; }
+
+.f14, .petit {
+  font-size: 11px; }
+
+.f15, .minion {
+  font-size: 9px; }
+
+.f16, .nonpareille {
+  font-size: 8px; }
+
+@media only screen and (min-width: 32em) {
+  .f1-ns, .inch-ns {
+    font-size: 96px; }
+
+  .f2-ns, .five-line-pica-ns {
+    font-size: 80px; }
+
+  .f3-ns, .canon-ns {
+    font-size: 62px; }
+
+  .f4-ns, .double-great-primer-ns {
+    font-size: 48px; }
+
+  .f5-ns, .double-pica-ns {
+    font-size: 32px; }
+
+  .f6-ns, .double-small-pica-ns {
+    font-size: 28px; }
+
+  .f7-ns, .great-primer-ns {
+    font-size: 24px; }
+
+  .f8-ns, .columbian-ns {
+    font-size: 21px; }
+
+  .f9-ns, .english-ns {
+    font-size: 19px; }
+
+  .f10-ns, .pica-ns {
+    font-size: 16px; }
+
+  .f11-ns, .small-pica-ns {
+    font-size: 15px; }
+
+  .f12-ns, .long-primer-ns {
+    font-size: 13px; }
+
+  .f13-ns, .bourgeois-ns {
+    font-size: 12px; }
+
+  .f14-ns, .petit-ns {
+    font-size: 11px; }
+
+  .f15-ns, .minion-ns {
+    font-size: 9px; }
+
+  .f16-ns, .nonpareille-ns {
+    font-size: 8px; } }
+@media only screen and (min-width: 32em) and (max-width: 48em) {
+  .f1-m, .inch-ns {
+    font-size: 96px; }
+
+  .f2-m, .five-line-pica-ns {
+    font-size: 80px; }
+
+  .f3-m, .canon-ns {
+    font-size: 62px; }
+
+  .f4-m, .double-great-primer-ns {
+    font-size: 48px; }
+
+  .f5-m, .double-pica-ns {
+    font-size: 32px; }
+
+  .f6-m, .double-small-pica-ns {
+    font-size: 28px; }
+
+  .f7-m, .great-primer-ns {
+    font-size: 24px; }
+
+  .f8-m, .columbian-ns {
+    font-size: 21px; }
+
+  .f9-m, .english-ns {
+    font-size: 19px; }
+
+  .f10-m, .pica-ns {
+    font-size: 16px; }
+
+  .f11-m, .small-pica-ns {
+    font-size: 15px; }
+
+  .f12-m, .long-primer-ns {
+    font-size: 13px; }
+
+  .f13-m, .bourgeois-ns {
+    font-size: 12px; }
+
+  .f14-m, .petit-ns {
+    font-size: 11px; }
+
+  .f15-m, .minion-ns {
+    font-size: 9px; }
+
+  .f16-m, .nonpareille-ns {
+    font-size: 8px; } }
+@media only screen and (min-width: 48em) {
+  .f1-l, .inch-ns {
+    font-size: 96px; }
+
+  .f2-l, .five-line-pica-ns {
+    font-size: 80px; }
+
+  .f3-l, .canon-ns {
+    font-size: 62px; }
+
+  .f4-l, .double-great-primer-ns {
+    font-size: 48px; }
+
+  .f5-l, .double-pica-ns {
+    font-size: 32px; }
+
+  .f6-l, .double-small-pica-ns {
+    font-size: 28px; }
+
+  .f7-l, .great-primer-ns {
+    font-size: 24px; }
+
+  .f8-l, .columbian-ns {
+    font-size: 21px; }
+
+  .f9-l, .english-ns {
+    font-size: 19px; }
+
+  .f10-l, .pica-ns {
+    font-size: 16px; }
+
+  .f11-l, .small-pica-ns {
+    font-size: 15px; }
+
+  .f12-l, .long-primer-ns {
+    font-size: 13px; }
+
+  .f13-l, .bourgeois-ns {
+    font-size: 12px; }
+
+  .f14-l, .petit-ns {
+    font-size: 11px; }
+
+  .f15-l, .minion-ns {
+    font-size: 9px; }
+
+  .f16-l, .nonpareille-ns {
+    font-size: 8px; } }
+/*
+ *
+ * TYPE UTILITIES
+ *
+ */
+.tracked-big {
+  text-transform: uppercase;
+  letter-spacing: .05em; }
+
+.tracked-big {
+  text-transform: uppercase;
+  letter-spacing: .1em; }
+
+.b {
+  font-weight: bold; }
+
+.thin {
+  font-weight: 100; }
+
+.lh-copy {
+  line-height: 1.6; }
+
+.lh-title {
+  line-height: 1.3; }
+
+.serif {
+  font-family: Georgia, serif; }
+
+.sans-serif {
+  font-family: Avenir, "Avenir Next", Helvetica, Arial; }
