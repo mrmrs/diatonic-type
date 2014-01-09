@@ -2,7 +2,7 @@
 
 See a the demo at http://ty-p.cc
 
-A responsive type scale based on the diatonic scale of the print world.
+A flexible &amp; responsive type scale for the web.
 
 * Illustrates some basic markup examples.
 * Works out of the box. (You don't need to add any classes to your markup.)
@@ -28,7 +28,7 @@ git clone git@github.com/mrmrs/type.git
 
 The MIT License (MIT)
 
-Copyright (c) 2013 @mrmrs
+Copyright (c) 2014 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
