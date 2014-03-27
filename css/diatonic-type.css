@@ -1,0 +1,50 @@
+/* ========================================================================== VARIABLES ========================================================================== */
+/* Mobile-first classes */
+.nonpareille { font-size: 8px; }
+
+.minion { font-size: 9px; }
+
+.petit { font-size: 11px; }
+
+.bourgeois { font-size: 12px; }
+
+.long-primer { font-size: 13px; }
+
+.small-pica { font-size: 15px; }
+
+.pica { font-size: 16px; }
+
+.english { font-size: 19px; }
+
+.columbian { font-size: 21px; }
+
+.great-primer { font-size: 24px; }
+
+.double-small-pica { font-size: 28px; }
+
+.double-pica { font-size: 32px; }
+
+.double-great-primer { font-size: 48px; }
+
+.canon { font-size: 62px; }
+
+.five-line-pica { font-size: 80px; }
+
+.inch { font-size: 96px; }
+
+@media screen and (min-device-width: 30em) and (max-device-width: 45em) { .nonpareille-ns { font-size: 8px; }
+  .minion-ns { font-size: 9px; }
+  .petit-ns { font-size: 11px; }
+  .bourgeois-ns { font-size: 12px; }
+  .long-primer-ns { font-size: 13px; }
+  .small-pica-ns { font-size: 15px; }
+  .pica-ns { font-size: 16px; }
+  .english-ns { font-size: 19px; }
+  .columbian-ns { font-size: 21px; }
+  .great-primer-ns { font-size: 24px; }
+  .double-small-pica-ns { font-size: 28px; }
+  .double-pica-ns { font-size: 32px; }
+  .double-great-primer-ns { font-size: 48px; }
+  .canon-ns { font-size: 62px; }
+  .five-line-pica-ns { font-size: 80px; }
+  .inch-ns { font-size: 96px; } }
