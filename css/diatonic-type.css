@@ -1,5 +1,5 @@
-/* ========================================================================== VARIABLES ========================================================================== */
-/* Mobile-first classes */
+/* Diatonic Type Scale */
+
 .nonpareille { font-size: 8px; }
 .minion { font-size: 9px; }
 .petit { font-size: 11px; }
@@ -17,7 +17,8 @@
 .five-line-pica { font-size: 80px; }
 .inch { font-size: 96px; }
 
-@media screen and (min-device-width: 30em) and (max-device-width: 45em) { .nonpareille-ns { font-size: 8px; }
+@media screen and (min-width: 30em) {
+  .nonpareille-ns { font-size: 8px; }
   .minion-ns { font-size: 9px; }
   .petit-ns { font-size: 11px; }
   .bourgeois-ns { font-size: 12px; }
@@ -32,4 +33,5 @@
   .double-great-primer-ns { font-size: 48px; }
   .canon-ns { font-size: 62px; }
   .five-line-pica-ns { font-size: 80px; }
-  .inch-ns { font-size: 96px; } }
+  .inch-ns { font-size: 96px; }
+}
