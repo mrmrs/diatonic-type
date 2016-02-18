@@ -15,7 +15,7 @@
     }
     h1 { font-weight: 100; line-height: 1.5; }
     h1 span { font-size: 16px; }
-    span {  color: #777; font-weight: 100; }
+    span {  color: rgba(0,0,0,.75); font-weight: 100; }
     .copy { line-height: 1.6; max-width: 30em; }
 
      a:link,a:visited { text-decoration: none; color: rgba(0,0,0,.9); font-weight: 600; }
@@ -27,7 +27,7 @@
      footer {
        padding-top: 2rem;
        margin-top: 2rem;
-       border-top: 1px solid #ddd;
+       border-top: 1px solid rgba(0,0,0,.2);
      }
      footer a {
        padding-right: 2rem;
