@@ -5,7 +5,6 @@
     }
     footer, main, header { padding: 1em; }
     header { border-bottom: 1px solid #e3e3e3; }
-
     @media screen and (min-width: 30em) {
       footer, main, header { padding: 2em; }
     }
@@ -17,11 +16,12 @@
     span {  color: #777; font-weight: 100; }
     .copy { line-height: 1.6; max-width: 30em; }
 
-     a:link { text-decoration: none; color: #000; font-weight: 900; }
+     a:link,a:visited { text-decoration: none; color: #000; font-weight: 600; }
      a:hover,
-     a:focus { opacity: 0.5; }
+     a:focus { opacity: 0.8; }
 
      nav a { padding-right: 1em; }
+     nav { margin-bottom: 2rem; }
      footer {
        padding-top: 2rem;
        margin-top: 2rem;
