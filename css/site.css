@@ -6,7 +6,7 @@
       color: rgba(0,0,0,.9);
     }
     footer, main, header { padding: 1em; }
-    header { border-bottom: 1px solid rgba(0,0,0,.2); }
+    header { border-bottom: 1px solid rgba(0,0,0,.1); }
     @media screen and (min-width: 30em) {
       footer, main, header { padding: 2em; }
     }
@@ -27,7 +27,7 @@
      footer {
        padding-top: 2rem;
        margin-top: 2rem;
-       border-top: 1px solid rgba(0,0,0,.2);
+       border-top: 1px solid rgba(0,0,0,.1);
      }
      footer a {
        padding-right: 2rem;
