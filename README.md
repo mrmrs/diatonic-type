@@ -1,6 +1,6 @@
 # TYPE
 
-See a the demo at http://ty-p.cc
+See a the demo at http://mrmrs.github.io/diatonic-type
 
 A flexible &amp; responsive type scale for the web.
 
@@ -13,7 +13,7 @@ A flexible &amp; responsive type scale for the web.
 
 #### 1. Grab the repo from github, duh
 ```
-git clone git@github.com/mrmrs/type.git
+git clone git@github.com/mrmrs/diatonic-type.git
 ```
 
 #### 2. Include type/css/type.css in your project by using something fancy like:
